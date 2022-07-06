@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ujs_meng/Shuju_struct_c++/03_stack_queue_string/Array.cpp
+Array.h
+E:/ujs_meng/Shuju_struct_c++/03_stack_queue_string/Array.h
+iostream
+-
+cassert
+-
+
+E:/ujs_meng/Shuju_struct_c++/03_stack_queue_string/Array.h
+
+E:/ujs_meng/Shuju_struct_c++/03_stack_queue_string/Arraydemo.cpp
+iostream
+-
+Array.cpp
+E:/ujs_meng/Shuju_struct_c++/03_stack_queue_string/Array.cpp
+

@@ -1,0 +1,3 @@
+E:\ProgrameFiles\Cmake\bin\cmake.exe -E remove -f CMakeFiles\05_tree.dir/objects.a
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\ar.exe" cr CMakeFiles\05_tree.dir/objects.a @CMakeFiles\05_tree.dir\objects1.rsp
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\05_tree.dir/objects.a -Wl,--no-whole-archive  -o 05_tree.exe -Wl,--out-implib,lib05_tree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\05_tree.dir\linklibs.rsp

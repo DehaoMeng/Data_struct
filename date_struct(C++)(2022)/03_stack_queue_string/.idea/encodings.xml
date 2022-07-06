@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/boyfriend.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/kmp.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shunxu_queue.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shuxu_String.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuxun_stack.cpp" charset="GBK" />
+  </component>
+</project>

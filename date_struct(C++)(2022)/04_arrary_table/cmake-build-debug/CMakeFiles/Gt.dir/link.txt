@@ -1,0 +1,3 @@
+E:\ProgrameFiles\Cmake\bin\cmake.exe -E remove -f CMakeFiles\Gt.dir/objects.a
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\ar.exe" cr CMakeFiles\Gt.dir/objects.a @CMakeFiles\Gt.dir\objects1.rsp
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\Gt.dir/objects.a -Wl,--no-whole-archive  -o Gt.exe -Wl,--out-implib,libGt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Gt.dir\linklibs.rsp

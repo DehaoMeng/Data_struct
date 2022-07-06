@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.15)
+project(studemts)
+
+set(CMAKE_CXX_STANDARD 20)
+
+#add_executable(shunxubiao LinkList_shunxu.cpp)
+#add_executable(danlianbiao LinkList_lianshi_only.cpp )
+##add_executable(xunhuanlian LinkList_lianshi_double_xunhuan.cpp)
+##add_executable(doublelian LinkList_lianshi_double.cpp)
+##add_executable(static LinkList_static.cpp)
+##add_executable(youxu LinkList_youxu.cpp)
+#add_executable(student computerDemo.cpp)
+##add_executable(data DataDemo.cpp)
+#add_executable(fract FractDemo.cpp)
+#add_executable(list danlianbiao_youxu.cpp)
+#add_executable(bank bank.cpp)
+add_executable(dlb LinkList_lianshi_xunhuan.cpp)

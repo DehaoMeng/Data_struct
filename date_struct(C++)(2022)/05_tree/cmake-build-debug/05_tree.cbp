@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="05_tree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_tree">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/05_tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_tree"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_tree/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/05_tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_tree/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hufe">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Hufe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hufe"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hufe/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Hufe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hufe/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tt">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tt"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tt/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tt/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Huft">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Huft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huft"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Huft/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Huft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huft/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree1">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tree1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree1"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree1/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/tree1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree1/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bt">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/bt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bt/fast">
+				<Option output="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/bt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 bt/fast"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ujs_meng/Shuju_struct_c++/05_tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Binary_tree.cpp">
+			<Option target="05_tree"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Binary_tree_lianshi.cpp">
+			<Option target="tree"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Binary_tree_lianshi_1.cpp">
+			<Option target="tree1"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Binary_tree_lianshi_2.cpp">
+			<Option target="bt"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Huffman_encoding.cpp">
+			<Option target="Hufe"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/Huffman_tree.cpp">
+			<Option target="Huft"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/test.cpp">
+			<Option target="tt"/>
+		</Unit>
+		<Unit filename="E:/ujs_meng/Shuju_struct_c++/05_tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

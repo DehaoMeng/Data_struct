@@ -1,0 +1,3 @@
+E:\ProgrameFiles\Cmake\bin\cmake.exe -E remove -f CMakeFiles\c_.dir/objects.a
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\ar.exe" cr CMakeFiles\c_.dir/objects.a @CMakeFiles\c_.dir\objects1.rsp
+"E:\Program Files\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\c_.dir/objects.a -Wl,--no-whole-archive  -o c_.exe -Wl,--out-implib,libc_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c_.dir\linklibs.rsp

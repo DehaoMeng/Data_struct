@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.15)
+project(mai)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(class0 class_stack_c.cpp)
+add_executable(shuxun shuxun_stack.cpp)
+add_executable(lian lian_stack_c.cpp)
+add_executable(both bothStack.cpp)
+add_executable(shunqu shunxu_queue.cpp)
+add_executable(link LinkQueue.cpp)
+add_executable(yanghui usingQ_yanghui.cpp)
+add_executable(bf boyfriend.cpp)
+add_executable(k kmp.cpp)
+add_executable(array Arraydemo.cpp)

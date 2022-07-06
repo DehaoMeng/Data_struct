@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ujs_meng/Shuju_struct_c++/05_tree/Binary_tree.cpp
+iostream
+-
+cstring
+-
+queue
+-
+

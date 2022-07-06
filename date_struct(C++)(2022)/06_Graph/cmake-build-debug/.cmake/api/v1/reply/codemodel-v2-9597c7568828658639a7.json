@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "05_Graph",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bbt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bbt-Debug-b84a14cfc02f348501fc.json",
+					"name" : "bbt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cs-Debug-2e198745cf89da94b125.json",
+					"name" : "cs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mp-Debug-b4c46ea3d520019ed572.json",
+					"name" : "mp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tnd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tnd-Debug-3a3d6c8cf3b52ff4b946.json",
+					"name" : "tnd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zs-Debug-ae348ea6c5d030b506c5.json",
+					"name" : "zs",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/ujs_meng/Shuju_struct_c++/06_Graph/cmake-build-debug",
+		"source" : "E:/ujs_meng/Shuju_struct_c++/06_Graph"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
